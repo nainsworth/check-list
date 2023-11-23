@@ -3,8 +3,6 @@
   --text: #414856;
   --check: #4F29F0;
   --disabled: #C3C8DE;
-  --width: 100px;
-  --height: 140px;
   --border-radius: 10px;
   background: var(--background);
   width: var(--width);
@@ -54,6 +52,7 @@
   outline: none;
   border: 0;
   margin: 0 15px 0 0;
+  padding: 16px;
   cursor: pointer;
   background: var(--background);
   display: grid;
@@ -175,7 +174,7 @@
 body {
   background: #E8EBF3;
   height: 100vh;
-  font: 400 16px "Varela Round", sans-serif;
+  font: 400 18px "Varela Round", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
