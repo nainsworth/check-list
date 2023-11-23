@@ -13,7 +13,7 @@ class List {
       {
         id: 1,
         name: "Google",
-        url: "www.google.com",
+        url: "https://www.google.com",
         status: false,
       },
       {
