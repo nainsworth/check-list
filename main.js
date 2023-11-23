@@ -72,26 +72,44 @@ class List {
       },
       {
         id: 11,
+        name: "Steering Wheel PC/PS5 Version",
+        url: "https://amzn.to/3Rcgtlq",
+        status: false,
+      },
+      {
+        id: 12,
+        name: "Shifter PC/PS5 Version",
+        url: "https://amzn.to/3GxoDyZ",
+        status: false,
+      },
+      {
+        id: 13,
         name: "Car Tuner",
         url: "https://86speed.com/vishnu-openflash-tuning-table-tablet-oft-v2",
         status: false,
       },
       {
-        id: 12,
+        id: 14,
         name: "Gun Barrel 3.7 Grey Threaded",
         url: "https://tactical.dev/collections/p365xl-products/products/ki-td-barrel-for-p365?variant=40131618308199",
         status: false,
       },
       {
-        id: 13,
+        id: 15,
         name: "Mag Grip",
         url: "https://tactical.dev/collections/p365xl-products/products/12-round-extra-long-pinky-extension-for-sig-p365-xl",
         status: false,
       },
       {
-        id: 14,
+        id: 16,
         name: "Right Handed Gun Rail",
         url: "https://tactical.dev/collections/p365xl-products/products/p365-pro-ledge",
+        status: false,
+      },
+      {
+        id: 17,
+        name: "?????",
+        url: "https://www.bestbuy.com/site/sony-playstation-5-console-marvels-spider-man-2-bundle-full-game-download-included-white/6565065.p?skuId=6565065",
         status: false,
       },
     ];
