@@ -37,7 +37,7 @@ class List {
       {
         id: 5,
         name: "Stream Deck",
-        url: "whttps://amzn.to/3TcEXwD",
+        url: "https://amzn.to/3TcEXwD",
         status: false,
       },
       {
