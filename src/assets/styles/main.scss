@@ -1,0 +1,30 @@
+@use "variables" as *;
+@use "snow";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $primary-font;
+}
+
+/* General Styling */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-size: $font-size;
+
+  .list-container {
+    z-index: 2;
+  }
+}
