@@ -26,5 +26,9 @@ body {
 
   .list-container {
     z-index: 2;
+    background-color: rgba($white, 0.5);
+    padding: 2em;
+    border-radius: 8px;
+    
   }
 }
