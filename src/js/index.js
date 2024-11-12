@@ -37,9 +37,16 @@ const generateCategory = (data) => {
 
 const generateItem = (parent, item) => {
   const itemContainer = document.createElement("a");
+  itemContainer.target = "_blank";
+
   const itemName = document.createElement("p");
+  itemName.classList.add("item-name");
+
   const itemDesc = document.createElement("p");
+  itemDesc.classList.add("item-desc");
+
   const itemPrice = document.createElement("p");
+  itemPrice.classList.add("item-price");
 
   parent.appendChild(itemContainer);
   itemContainer.appendChild(itemName);

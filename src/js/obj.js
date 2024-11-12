@@ -1,42 +1,68 @@
 const listOBJ = {
+  gym: [
+    {
+      name: "Ohio Power Bar",
+      description: "E-Coat or Cerakote",
+      price: "$295.00",
+      url: "https://www.roguefitness.com/rogue-ohio-power-bar-e-coat",
+    },
+    {
+      name: "Ohio Deadlift Bar",
+      description: "E-Coat or Cerakote",
+      price: "$375.00",
+      url: "https://www.roguefitness.com/rogue-ohio-deadlift-bar-e-coat",
+    },
+    {
+      name: "REP Fitness AB 5200 Bench",
+      description: "Wide/Fixed/Black",
+      price: "$519.99",
+      url: "https://repfitness.com/collections/adjustable-weight-benches/products/ab-5200-2-0?variant=42452607664286",
+    },
+    {
+      name: "Major Fitness F35 Power Rack",
+      description: "Black or Red?",
+      price: "$949.99",
+      url: "https://www.major-lutie.com/products/major-fitness-f35-all-in-one-folding-power-rack?&variant=41744207675449",
+    },
+    {
+      name: "Weights",
+      description: "355lb set + 3x45lb + 1X10lb",
+      price: "$1,179.95",
+      url: "https://repfitness.com/collections/steel-plates/products/old-school-iron-plate-pairs?variant=41067600576670",
+    },
+  ],
+  home: [
+    {
+      name: "KAMA-ASA's Black Cutting Board",
+      description: "Size L",
+      price: "$130.00",
+      url: "https://kama-asa.co.jp/en-us/products/kama-asa-black-cutting-board?variant=46805700280642",
+    },
+    {
+      name: "Ceiling Hex Lights",
+      description: "",
+      price: "$256.98",
+      url: "https://www.amazon.com/LZHOME-Hexagon-LED-Garage-Light/dp/B0BM8TD6H6/ref=sr_1_1?crid=35KH3CDAWNCDQ&dib=eyJ2IjoiMSJ9.wIwNMdERr2hWtMwng4x3WR_OVPPHFYDjTGhsdopp_8Ci3xcFhsLZZWzCyZgBgzJxhZOWf9WdWhUhkibCSVhAgdySqQonFA4K4jgcBNJXPDQgb_H67lvMPe3RCjGiDiAJ-N3-aoc_Fl4n3Z1mKJ0klUlSH63JBcfaSG1vU_8aaP_rCWltUHKTGGU_CfZyQpcVLbcvESZh8bv0TEamLbOktPr2PoaSRkwl8rx-zMTLsGQTM6KCOQWE2JPow6S2Kn64C9EWjyS0vYTTVhDpo-oenHCdosNwVZdAwaHTqwyCweE.U2qetW-Rmx_0BTrbRiKrkJqHbaLVfuh7X07xaLKmd1Y&dib_tag=se&keywords=hexagon%2Bceiling%2Blight&qid=1731109506&sprefix=hexa%2Caps%2C155&sr=8-1&th=1",
+    },
+    {
+      name: "Kitchen Aid Mixer",
+      description: "Whatever looks good in kitchen",
+      price: "$299.00",
+      url: "https://www.walmart.com/ip/KitchenAid-Classic-Series-4-5-Quart-Tilt-Head-Stand-Mixer-Onyx-Black-K45SS/29474640?classType=VARIANT&from=/search",
+    },
+  ],
   tech: [
+    {
+      name: 'Google Nest Hub 7"',
+      description: "Charcoal",
+      price: "$99.99",
+      url: "https://www.bestbuy.com/site/nest-hub-7-smart-display-with-google-assistant-2nd-gen-chalk/6450820.p?skuId=6450820",
+    },
     {
       name: "Bambu Lab A1 3D Printer",
       description: "",
       price: "$299.00",
       url: "https://us.store.bambulab.com/collections/3d-printer/products/a1",
-    },
-  ],
-  truck: [
-    {
-      name: "K&N Air Filter",
-      description: "",
-      price: "$74.99",
-      url: "https://www.amazon.com/33-5143-Replacement-Air-Filter/dp/B0CX1ZRMT7/ref=sr_1_1?crid=23G8C1RF6MIKG&dib=eyJ2IjoiMSJ9.c5AfwxMdA1JAEzT1sdNuS2s6B_qtWw8Vr-pytYySM9mECLCBLDTbeE9ZzDud3skp6bdQaGphok59DRlKUGHxDPE5LqhbXVGdfJiTdIH2J4E1hs96j7ymhbqvpJLcACDk0RTlHWuUwxCmsFAu5Us_dLJ9QCdMg0WW1wyp_ZlLiKOSeJXUxNBsSdfpuIdC8YAudTkA6XNQhU495vbb5j82x624qgRedcngnis4Fd50NKU.ceR87mplosgZgNqvHv_ux-435cq9tc8_zbgfT7dVT7Q&dib_tag=se&keywords=k%26n+33-5143&qid=1731109372&sprefix=k%26n+33-5143%2Caps%2C141&sr=8-1",
-    },
-    {
-      name: 'Level Up 1" Front Leveling Kit',
-      description: "",
-      price: "$89.99",
-      url: "https://www.levelupsuspension.com/products/level-up-suspension-1-front-leveling-kit-23-colorado",
-    },
-    {
-      name: '1.5" Wheel Spacers',
-      description: "",
-      price: "$139.99",
-      url: "https://www.amazon.com/KSP-Spacers-Silverado-Avalanche-Suburban/dp/B083FD7NMY/ref=sr_1_1_sspa?crid=OG0H9F2ZKD67&dib=eyJ2IjoiMSJ9.khLAirviA3Ity_Np9poPoX71jp7DBylLbp_-NI6jfhnVJ6DYlN8H7YnbP2ZRRigXmndoes1Oni4HX_xkuQZIiwIFQMFXbnnmwIO42wZc4c6RCSoaePwCliY1TGK5WGJfVAYlgrPRvjoKAvFAMzHR-bluaF9uwN8CWBRS2Y2q_N6EOySKfH061v0rYKASrNCyHHhBs_btw1C5S7hMvoC-9PWgbwhD4qgsQf0wItIYPC8.iuYU4K0ia-91-W-KWwwDOHCi2x7r3K7AeLe6bavSn1g&dib_tag=se&keywords=ksp%2B6x5.5%2Bwheel%2Bspacers%2B1.5&qid=1731033133&sprefix=ksp%2B6x5.5%2Bwheel%2Bspacers%2B1.5%2Caps%2C121&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
-    },
-    {
-      name: "Fender Lights",
-      description: "Smoked/Sequential Swithback",
-      price: "$350.95",
-      url: "https://boostautoparts.com/products/2023-canyon-fender-lights?year=2024&make=GMC&model=Canyon&options=option1=Smoked+option2=Sequential%20Switchback",
-    },
-    {
-      name: "Hard Low Profile Bed Cover",
-      description: "",
-      price: "$649.95",
-      url: "https://www.roughcountry.com/product/gm-low-profile-tonneau-cover-4712050c",
     },
   ],
   tools: [
@@ -95,50 +121,36 @@ const listOBJ = {
       url: "https://www.harborfreight.com/tool-storage-organization/tool-storage/46-in-9-drawer-mobile-storage-cabinet-with-solid-wood-top-black-56613.html",
     },
   ],
-  home: [
+  truck: [
     {
-      name: "KAMA-ASA's Black Cutting Board",
-      description: "Size L",
-      price: "$130.00",
-      url: "https://kama-asa.co.jp/en-us/products/kama-asa-black-cutting-board?variant=46805700280642",
-    },
-    {
-      name: "Ceiling Hex Lights",
+      name: "K&N Air Filter",
       description: "",
-      price: "$256.98",
-      url: "https://www.amazon.com/LZHOME-Hexagon-LED-Garage-Light/dp/B0BM8TD6H6/ref=sr_1_1?crid=35KH3CDAWNCDQ&dib=eyJ2IjoiMSJ9.wIwNMdERr2hWtMwng4x3WR_OVPPHFYDjTGhsdopp_8Ci3xcFhsLZZWzCyZgBgzJxhZOWf9WdWhUhkibCSVhAgdySqQonFA4K4jgcBNJXPDQgb_H67lvMPe3RCjGiDiAJ-N3-aoc_Fl4n3Z1mKJ0klUlSH63JBcfaSG1vU_8aaP_rCWltUHKTGGU_CfZyQpcVLbcvESZh8bv0TEamLbOktPr2PoaSRkwl8rx-zMTLsGQTM6KCOQWE2JPow6S2Kn64C9EWjyS0vYTTVhDpo-oenHCdosNwVZdAwaHTqwyCweE.U2qetW-Rmx_0BTrbRiKrkJqHbaLVfuh7X07xaLKmd1Y&dib_tag=se&keywords=hexagon%2Bceiling%2Blight&qid=1731109506&sprefix=hexa%2Caps%2C155&sr=8-1&th=1",
-    },
-  ],
-  gym: [
-    {
-      name: "Ohio Power Bar",
-      description: "E-Coat or Cerakote",
-      price: "$295.00",
-      url: "https://www.roguefitness.com/rogue-ohio-power-bar-e-coat",
+      price: "$74.99",
+      url: "https://www.amazon.com/33-5143-Replacement-Air-Filter/dp/B0CX1ZRMT7/ref=sr_1_1?crid=23G8C1RF6MIKG&dib=eyJ2IjoiMSJ9.c5AfwxMdA1JAEzT1sdNuS2s6B_qtWw8Vr-pytYySM9mECLCBLDTbeE9ZzDud3skp6bdQaGphok59DRlKUGHxDPE5LqhbXVGdfJiTdIH2J4E1hs96j7ymhbqvpJLcACDk0RTlHWuUwxCmsFAu5Us_dLJ9QCdMg0WW1wyp_ZlLiKOSeJXUxNBsSdfpuIdC8YAudTkA6XNQhU495vbb5j82x624qgRedcngnis4Fd50NKU.ceR87mplosgZgNqvHv_ux-435cq9tc8_zbgfT7dVT7Q&dib_tag=se&keywords=k%26n+33-5143&qid=1731109372&sprefix=k%26n+33-5143%2Caps%2C141&sr=8-1",
     },
     {
-      name: "Ohio Deadlift Bar",
-      description: "E-Coat or Cerakote",
-      price: "$375.00",
-      url: "https://www.roguefitness.com/rogue-ohio-deadlift-bar-e-coat",
+      name: 'Level Up 1" Front Leveling Kit',
+      description: "",
+      price: "$89.99",
+      url: "https://www.levelupsuspension.com/products/level-up-suspension-1-front-leveling-kit-23-colorado",
     },
     {
-      name: "REP Fitness AB 5200 Bench",
-      description: "Wide/Fixed/Black & Red",
-      price: "$519.99",
-      url: "https://repfitness.com/collections/adjustable-weight-benches/products/ab-5200-2-0?variant=42452607664286",
+      name: '1.5" Wheel Spacers',
+      description: "",
+      price: "$139.99",
+      url: "https://www.amazon.com/KSP-Spacers-Silverado-Avalanche-Suburban/dp/B083FD7NMY/ref=sr_1_1_sspa?crid=OG0H9F2ZKD67&dib=eyJ2IjoiMSJ9.khLAirviA3Ity_Np9poPoX71jp7DBylLbp_-NI6jfhnVJ6DYlN8H7YnbP2ZRRigXmndoes1Oni4HX_xkuQZIiwIFQMFXbnnmwIO42wZc4c6RCSoaePwCliY1TGK5WGJfVAYlgrPRvjoKAvFAMzHR-bluaF9uwN8CWBRS2Y2q_N6EOySKfH061v0rYKASrNCyHHhBs_btw1C5S7hMvoC-9PWgbwhD4qgsQf0wItIYPC8.iuYU4K0ia-91-W-KWwwDOHCi2x7r3K7AeLe6bavSn1g&dib_tag=se&keywords=ksp%2B6x5.5%2Bwheel%2Bspacers%2B1.5&qid=1731033133&sprefix=ksp%2B6x5.5%2Bwheel%2Bspacers%2B1.5%2Caps%2C121&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
     },
     {
-      name: "Major Fitness F35 Power Rack",
-      description: "Red",
-      price: "$949.99",
-      url: "https://www.major-lutie.com/products/major-fitness-f35-all-in-one-folding-power-rack?&variant=41744207544377",
+      name: "Fender Lights",
+      description: "Smoked/Sequential Swithback",
+      price: "$350.95",
+      url: "https://boostautoparts.com/products/2023-canyon-fender-lights?year=2024&make=GMC&model=Canyon&options=option1=Smoked+option2=Sequential%20Switchback",
     },
     {
-      name: "Weights",
-      description: "355lb set + 3x45lb + 1X10lb",
-      price: "$1,179.95",
-      url: "https://repfitness.com/collections/steel-plates/products/old-school-iron-plate-pairs?variant=41067600576670",
+      name: "Hard Low Profile Bed Cover",
+      description: "",
+      price: "$649.95",
+      url: "https://www.roughcountry.com/product/gm-low-profile-tonneau-cover-4712050c",
     },
   ],
 };

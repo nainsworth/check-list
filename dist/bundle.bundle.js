@@ -13,37 +13,58 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   listOBJ: () => (/* binding */ listOBJ)
 /* harmony export */ });
 var listOBJ = {
+  gym: [{
+    name: "Ohio Power Bar",
+    description: "E-Coat or Cerakote",
+    price: "$295.00",
+    url: "https://www.roguefitness.com/rogue-ohio-power-bar-e-coat"
+  }, {
+    name: "Ohio Deadlift Bar",
+    description: "E-Coat or Cerakote",
+    price: "$375.00",
+    url: "https://www.roguefitness.com/rogue-ohio-deadlift-bar-e-coat"
+  }, {
+    name: "REP Fitness AB 5200 Bench",
+    description: "Wide/Fixed/Black",
+    price: "$519.99",
+    url: "https://repfitness.com/collections/adjustable-weight-benches/products/ab-5200-2-0?variant=42452607664286"
+  }, {
+    name: "Major Fitness F35 Power Rack",
+    description: "Black or Red?",
+    price: "$949.99",
+    url: "https://www.major-lutie.com/products/major-fitness-f35-all-in-one-folding-power-rack?&variant=41744207675449"
+  }, {
+    name: "Weights",
+    description: "355lb set + 3x45lb + 1X10lb",
+    price: "$1,179.95",
+    url: "https://repfitness.com/collections/steel-plates/products/old-school-iron-plate-pairs?variant=41067600576670"
+  }],
+  home: [{
+    name: "KAMA-ASA's Black Cutting Board",
+    description: "Size L",
+    price: "$130.00",
+    url: "https://kama-asa.co.jp/en-us/products/kama-asa-black-cutting-board?variant=46805700280642"
+  }, {
+    name: "Ceiling Hex Lights",
+    description: "",
+    price: "$256.98",
+    url: "https://www.amazon.com/LZHOME-Hexagon-LED-Garage-Light/dp/B0BM8TD6H6/ref=sr_1_1?crid=35KH3CDAWNCDQ&dib=eyJ2IjoiMSJ9.wIwNMdERr2hWtMwng4x3WR_OVPPHFYDjTGhsdopp_8Ci3xcFhsLZZWzCyZgBgzJxhZOWf9WdWhUhkibCSVhAgdySqQonFA4K4jgcBNJXPDQgb_H67lvMPe3RCjGiDiAJ-N3-aoc_Fl4n3Z1mKJ0klUlSH63JBcfaSG1vU_8aaP_rCWltUHKTGGU_CfZyQpcVLbcvESZh8bv0TEamLbOktPr2PoaSRkwl8rx-zMTLsGQTM6KCOQWE2JPow6S2Kn64C9EWjyS0vYTTVhDpo-oenHCdosNwVZdAwaHTqwyCweE.U2qetW-Rmx_0BTrbRiKrkJqHbaLVfuh7X07xaLKmd1Y&dib_tag=se&keywords=hexagon%2Bceiling%2Blight&qid=1731109506&sprefix=hexa%2Caps%2C155&sr=8-1&th=1"
+  }, {
+    name: "Kitchen Aid Mixer",
+    description: "Whatever looks good in kitchen",
+    price: "$299.00",
+    url: "https://www.walmart.com/ip/KitchenAid-Classic-Series-4-5-Quart-Tilt-Head-Stand-Mixer-Onyx-Black-K45SS/29474640?classType=VARIANT&from=/search"
+  }],
   tech: [{
+    name: 'Google Nest Hub 7"',
+    description: "Charcoal",
+    price: "$99.99",
+    url: "https://www.bestbuy.com/site/nest-hub-7-smart-display-with-google-assistant-2nd-gen-chalk/6450820.p?skuId=6450820"
+  }, {
     name: "Bambu Lab A1 3D Printer",
     description: "",
     price: "$299.00",
     url: "https://us.store.bambulab.com/collections/3d-printer/products/a1"
-  }],
-  truck: [{
-    name: "K&N Air Filter",
-    description: "",
-    price: "$74.99",
-    url: "https://www.amazon.com/33-5143-Replacement-Air-Filter/dp/B0CX1ZRMT7/ref=sr_1_1?crid=23G8C1RF6MIKG&dib=eyJ2IjoiMSJ9.c5AfwxMdA1JAEzT1sdNuS2s6B_qtWw8Vr-pytYySM9mECLCBLDTbeE9ZzDud3skp6bdQaGphok59DRlKUGHxDPE5LqhbXVGdfJiTdIH2J4E1hs96j7ymhbqvpJLcACDk0RTlHWuUwxCmsFAu5Us_dLJ9QCdMg0WW1wyp_ZlLiKOSeJXUxNBsSdfpuIdC8YAudTkA6XNQhU495vbb5j82x624qgRedcngnis4Fd50NKU.ceR87mplosgZgNqvHv_ux-435cq9tc8_zbgfT7dVT7Q&dib_tag=se&keywords=k%26n+33-5143&qid=1731109372&sprefix=k%26n+33-5143%2Caps%2C141&sr=8-1"
-  }, {
-    name: 'Level Up 1" Front Leveling Kit',
-    description: "",
-    price: "$89.99",
-    url: "https://www.levelupsuspension.com/products/level-up-suspension-1-front-leveling-kit-23-colorado"
-  }, {
-    name: '1.5" Wheel Spacers',
-    description: "",
-    price: "$139.99",
-    url: "https://www.amazon.com/KSP-Spacers-Silverado-Avalanche-Suburban/dp/B083FD7NMY/ref=sr_1_1_sspa?crid=OG0H9F2ZKD67&dib=eyJ2IjoiMSJ9.khLAirviA3Ity_Np9poPoX71jp7DBylLbp_-NI6jfhnVJ6DYlN8H7YnbP2ZRRigXmndoes1Oni4HX_xkuQZIiwIFQMFXbnnmwIO42wZc4c6RCSoaePwCliY1TGK5WGJfVAYlgrPRvjoKAvFAMzHR-bluaF9uwN8CWBRS2Y2q_N6EOySKfH061v0rYKASrNCyHHhBs_btw1C5S7hMvoC-9PWgbwhD4qgsQf0wItIYPC8.iuYU4K0ia-91-W-KWwwDOHCi2x7r3K7AeLe6bavSn1g&dib_tag=se&keywords=ksp%2B6x5.5%2Bwheel%2Bspacers%2B1.5&qid=1731033133&sprefix=ksp%2B6x5.5%2Bwheel%2Bspacers%2B1.5%2Caps%2C121&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
-  }, {
-    name: "Fender Lights",
-    description: "Smoked/Sequential Swithback",
-    price: "$350.95",
-    url: "https://boostautoparts.com/products/2023-canyon-fender-lights?year=2024&make=GMC&model=Canyon&options=option1=Smoked+option2=Sequential%20Switchback"
-  }, {
-    name: "Hard Low Profile Bed Cover",
-    description: "",
-    price: "$649.95",
-    url: "https://www.roughcountry.com/product/gm-low-profile-tonneau-cover-4712050c"
   }],
   tools: [{
     name: '3/8" Torque Wrench',
@@ -91,42 +112,31 @@ var listOBJ = {
     price: "$349.99",
     url: "https://www.harborfreight.com/tool-storage-organization/tool-storage/46-in-9-drawer-mobile-storage-cabinet-with-solid-wood-top-black-56613.html"
   }],
-  home: [{
-    name: "KAMA-ASA's Black Cutting Board",
-    description: "Size L",
-    price: "$130.00",
-    url: "https://kama-asa.co.jp/en-us/products/kama-asa-black-cutting-board?variant=46805700280642"
-  }, {
-    name: "Ceiling Hex Lights",
+  truck: [{
+    name: "K&N Air Filter",
     description: "",
-    price: "$256.98",
-    url: "https://www.amazon.com/LZHOME-Hexagon-LED-Garage-Light/dp/B0BM8TD6H6/ref=sr_1_1?crid=35KH3CDAWNCDQ&dib=eyJ2IjoiMSJ9.wIwNMdERr2hWtMwng4x3WR_OVPPHFYDjTGhsdopp_8Ci3xcFhsLZZWzCyZgBgzJxhZOWf9WdWhUhkibCSVhAgdySqQonFA4K4jgcBNJXPDQgb_H67lvMPe3RCjGiDiAJ-N3-aoc_Fl4n3Z1mKJ0klUlSH63JBcfaSG1vU_8aaP_rCWltUHKTGGU_CfZyQpcVLbcvESZh8bv0TEamLbOktPr2PoaSRkwl8rx-zMTLsGQTM6KCOQWE2JPow6S2Kn64C9EWjyS0vYTTVhDpo-oenHCdosNwVZdAwaHTqwyCweE.U2qetW-Rmx_0BTrbRiKrkJqHbaLVfuh7X07xaLKmd1Y&dib_tag=se&keywords=hexagon%2Bceiling%2Blight&qid=1731109506&sprefix=hexa%2Caps%2C155&sr=8-1&th=1"
-  }],
-  gym: [{
-    name: "Ohio Power Bar",
-    description: "E-Coat or Cerakote",
-    price: "$295.00",
-    url: "https://www.roguefitness.com/rogue-ohio-power-bar-e-coat"
+    price: "$74.99",
+    url: "https://www.amazon.com/33-5143-Replacement-Air-Filter/dp/B0CX1ZRMT7/ref=sr_1_1?crid=23G8C1RF6MIKG&dib=eyJ2IjoiMSJ9.c5AfwxMdA1JAEzT1sdNuS2s6B_qtWw8Vr-pytYySM9mECLCBLDTbeE9ZzDud3skp6bdQaGphok59DRlKUGHxDPE5LqhbXVGdfJiTdIH2J4E1hs96j7ymhbqvpJLcACDk0RTlHWuUwxCmsFAu5Us_dLJ9QCdMg0WW1wyp_ZlLiKOSeJXUxNBsSdfpuIdC8YAudTkA6XNQhU495vbb5j82x624qgRedcngnis4Fd50NKU.ceR87mplosgZgNqvHv_ux-435cq9tc8_zbgfT7dVT7Q&dib_tag=se&keywords=k%26n+33-5143&qid=1731109372&sprefix=k%26n+33-5143%2Caps%2C141&sr=8-1"
   }, {
-    name: "Ohio Deadlift Bar",
-    description: "E-Coat or Cerakote",
-    price: "$375.00",
-    url: "https://www.roguefitness.com/rogue-ohio-deadlift-bar-e-coat"
+    name: 'Level Up 1" Front Leveling Kit',
+    description: "",
+    price: "$89.99",
+    url: "https://www.levelupsuspension.com/products/level-up-suspension-1-front-leveling-kit-23-colorado"
   }, {
-    name: "REP Fitness AB 5200 Bench",
-    description: "Wide/Fixed/Black & Red",
-    price: "$519.99",
-    url: "https://repfitness.com/collections/adjustable-weight-benches/products/ab-5200-2-0?variant=42452607664286"
+    name: '1.5" Wheel Spacers',
+    description: "",
+    price: "$139.99",
+    url: "https://www.amazon.com/KSP-Spacers-Silverado-Avalanche-Suburban/dp/B083FD7NMY/ref=sr_1_1_sspa?crid=OG0H9F2ZKD67&dib=eyJ2IjoiMSJ9.khLAirviA3Ity_Np9poPoX71jp7DBylLbp_-NI6jfhnVJ6DYlN8H7YnbP2ZRRigXmndoes1Oni4HX_xkuQZIiwIFQMFXbnnmwIO42wZc4c6RCSoaePwCliY1TGK5WGJfVAYlgrPRvjoKAvFAMzHR-bluaF9uwN8CWBRS2Y2q_N6EOySKfH061v0rYKASrNCyHHhBs_btw1C5S7hMvoC-9PWgbwhD4qgsQf0wItIYPC8.iuYU4K0ia-91-W-KWwwDOHCi2x7r3K7AeLe6bavSn1g&dib_tag=se&keywords=ksp%2B6x5.5%2Bwheel%2Bspacers%2B1.5&qid=1731033133&sprefix=ksp%2B6x5.5%2Bwheel%2Bspacers%2B1.5%2Caps%2C121&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
   }, {
-    name: "Major Fitness F35 Power Rack",
-    description: "Red",
-    price: "$949.99",
-    url: "https://www.major-lutie.com/products/major-fitness-f35-all-in-one-folding-power-rack?&variant=41744207544377"
+    name: "Fender Lights",
+    description: "Smoked/Sequential Swithback",
+    price: "$350.95",
+    url: "https://boostautoparts.com/products/2023-canyon-fender-lights?year=2024&make=GMC&model=Canyon&options=option1=Smoked+option2=Sequential%20Switchback"
   }, {
-    name: "Weights",
-    description: "355lb set + 3x45lb + 1X10lb",
-    price: "$1,179.95",
-    url: "https://repfitness.com/collections/steel-plates/products/old-school-iron-plate-pairs?variant=41067600576670"
+    name: "Hard Low Profile Bed Cover",
+    description: "",
+    price: "$649.95",
+    url: "https://www.roughcountry.com/product/gm-low-profile-tonneau-cover-4712050c"
   }]
 };
 
@@ -165,6 +175,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `/* Primary Colors */
   background: linear-gradient(#123, #111);
   opacity: 0;
   animation: main-loadup 1s forwards linear, main-loadup-bg 10s forwards linear;
+  position: fixed;
 }
 @keyframes main-loadup {
   from {
@@ -635,19 +646,60 @@ html {
 }
 
 body {
-  background-color: #0d131a;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  font-size: clamp(1rem, 3.5vw, 1.2rem);
+  font-size: clamp(1.1rem, 3.5vw, 1.5rem);
 }
 body .list-container {
   z-index: 2;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.5em;
   border-radius: 8px;
-}`, "",{"version":3,"sources":["webpack://./src/assets/styles/_variables.scss","webpack://./src/assets/styles/_snow.scss","webpack://./src/assets/styles/main.scss"],"names":[],"mappings":"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","sourceRoot":""}]);
+  margin: 1em;
+}
+body .list-container h1 {
+  text-align: center;
+}
+body .list-container .category-container {
+  border-bottom: 1px solid #7e7e7e;
+  padding: 1em 0;
+}
+body .list-container .category-container:last-child {
+  border: none;
+}
+body .list-container .category-container .category-items {
+  padding: 0.3em;
+  padding-bottom: 0;
+}
+body .list-container .category-container .category-items a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #3783d0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.4em;
+  flex: 1 1 0;
+  padding: 0.5em;
+}
+body .list-container .category-container .category-items a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+body .list-container .category-container .category-items a:last-child {
+  border: none;
+}
+body .list-container .category-container .category-items a .item-desc {
+  font-size: 0.6em;
+  color: #5a5a5a;
+}
+body .list-container .category-container .category-items a .item-price {
+  grid-area: 1/2/3/3;
+  justify-self: end;
+  align-self: center;
+  font-weight: 600;
+}`, "",{"version":3,"sources":["webpack://./src/assets/styles/_variables.scss","webpack://./src/assets/styles/_snow.scss","webpack://./src/assets/styles/main.scss"],"names":[],"mappings":"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","sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1202,9 +1254,13 @@ var generateCategory = function generateCategory(data) {
 };
 var generateItem = function generateItem(parent, item) {
   var itemContainer = document.createElement("a");
+  itemContainer.target = "_blank";
   var itemName = document.createElement("p");
+  itemName.classList.add("item-name");
   var itemDesc = document.createElement("p");
+  itemDesc.classList.add("item-desc");
   var itemPrice = document.createElement("p");
+  itemPrice.classList.add("item-price");
   parent.appendChild(itemContainer);
   itemContainer.appendChild(itemName);
   itemContainer.appendChild(itemDesc);
