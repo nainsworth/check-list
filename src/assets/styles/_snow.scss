@@ -8,6 +8,7 @@
   background: linear-gradient(#123, #111);
   opacity: 0;
   animation: main-loadup 1s forwards linear, main-loadup-bg 10s forwards linear;
+  position: fixed;
 
   @keyframes main-loadup {
     from {
