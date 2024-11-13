@@ -87,15 +87,20 @@ var listOBJ = {
     price: "$29.97",
     url: "https://www.amazon.com/Klein-Tools-935DAG-Electronic-Measures/dp/B07ZWW3BW5/ref=sr_1_5?crid=SA1C39JUCR7H&dib=eyJ2IjoiMSJ9.9f59Ld8zHaFNmppPJqHFYCgpe3dEZIqWy0zR7N0cdCaJ2py7OqAncbhFp0NcblVPwqhcpDV5lTzXO7mroHyp0203CQ4rABBXxo1TYyeIDyyJAo_D3NOkRvz8JU6g6XLJLRCnmd8I5SKryPuTD2txJcY2zQZF4OVHXk0jbedeA1C9GsT5gCDfAntTS_am5wyixB4aqlXy9e5LCRYj1SqVkFEmbjO12opAzA4Ju8jyWRmiQN0emZzmeFI07TiPn1oug575paoKXxe1HFH5p8J9x3ZTNNeOSM3XjawVXN5wQgE.l1V5UPF0faip-92Z2LBctB_lS7OXkdYtAm1fCMiBduw&dib_tag=se&keywords=digital%2Bangle%2Bfinder&qid=1731025371&sprefix=digital%2B%2Caps%2C133&sr=8-5&th=1"
   }, {
-    name: "Kreg Rip Cut Jig",
-    description: "",
-    price: "$39.99",
-    url: "https://www.lowes.com/pd/Kreg-Rip-Cut-Cutting-Jig-Make-Precise-Rip-Cuts-and-Crosscuts-up-to-24-Inches-Wide/1000281745"
-  }, {
     name: "Pressure Washer Gun",
     description: "Swivel",
     price: "$59.88",
     url: "https://www.amazon.com/McKillans-Pressure-Compatible-Equipped-Connector/dp/B0861V45B9/ref=sr_1_4?crid=2NRUU8OOIAW4R&dib=eyJ2IjoiMSJ9.QRh0WlACL2CPgkwLnAG3GlOm0494vCMJOcysndX2vQtgBEJwj7uUbzPd_ipKfypUkdm7eRzPvic-EYngd5yo7Wh6A324t9Hn_mrfyrGMKK7YndCR__-h5ZCUd6zr1EetA_MEl0J5IlOFoB8JyyQneYadHXQhJOsxQvM5lch_wJ9McHF9-DeKaZr4sUEg7CMDAgG_N8x3F_C7gCailruOx5XnDyOFXs9ad7cFTrm1xho.dB2ylDk_uPFJvvGycG_sPt_FwYm1MCe9hwzg8L4dVeM&dib_tag=se&keywords=pressure%2Bwasher%2Bgun&qid=1731111193&sprefix=pressure%2Bwasher%2B%2Caps%2C150&sr=8-4&th=1"
+  }, {
+    name: "WEN Track Saw GUIDES",
+    description: "Saw Required",
+    price: "$68.67",
+    url: "https://www.amazon.com/gp/product/B0BK35JYTD/ref=ewc_pr_img_2?smid=ATVPDKIKX0DER&psc=1"
+  }, {
+    name: "WEN Track Saw",
+    description: '7.25" Corded / Guide Required',
+    price: "$135.95",
+    url: "https://www.amazon.com/gp/product/B0C8LD15YD/ref=ewc_pr_img_3?smid=ATVPDKIKX0DER&th=1"
   }, {
     name: "Ridgid Miter Saw Stand",
     description: "",
