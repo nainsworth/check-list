@@ -53,6 +53,12 @@ const listOBJ = {
   ],
   tech: [
     {
+      name: "3D Printer Starter Kit",
+      description: "Purchase as add-on with printer for discount",
+      price: "$56.07",
+      url: "https://us.store.bambulab.com/products/starter-filament-pack-a1-series?variant=43058303107208",
+    },
+    {
       name: 'Google Nest Hub 7"',
       description: "Charcoal",
       price: "$99.99",
@@ -107,12 +113,6 @@ const listOBJ = {
       description: '7.25" Corded / Guide Required',
       price: "$135.95",
       url: "https://www.amazon.com/gp/product/B0C8LD15YD/ref=ewc_pr_img_3?smid=ATVPDKIKX0DER&th=1",
-    },
-    {
-      name: "Ridgid Miter Saw Stand",
-      description: "",
-      price: "$179.00",
-      url: "https://www.homedepot.com/p/RIDGID-Foldable-Mobile-Miter-Saw-Stand-with-Mounting-Braces-AC9946/206992161",
     },
     {
       name: "Chemical Guys Buffer",
