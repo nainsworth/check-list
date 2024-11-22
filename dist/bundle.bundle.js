@@ -107,11 +107,6 @@ var listOBJ = {
     price: "$135.95",
     url: "https://www.amazon.com/gp/product/B0C8LD15YD/ref=ewc_pr_img_3?smid=ATVPDKIKX0DER&th=1"
   }, {
-    name: "Chemical Guys Buffer",
-    description: "",
-    price: "$203.99",
-    url: "https://www.amazon.com/Chemical-Guys-BUF503X-Polishing-Compounds/dp/B01M05F4U5/ref=sr_1_1_sspa?crid=H98XHJHK0F41&dib=eyJ2IjoiMSJ9.zIk3Nb9utko_GQ_72IPp9kUgWSb7BPpesbxdQy-y5iwvOpiiMa8CeQLjZnLydCGeG8Wtxqf9i602Pjolk4MR_q95A1sdZjNqM0-x3oyUhjk956NtTvN8UYvPwWoa3r9W1HS3BcYgVESk_cvPvBceJIFcguEZSwPsrQdXsQ5KH-Rtr0FHGYh4Bz1CahmIFQg_VXBjTCRKBTOi6ke9ZTgO5uLFB23WlOpdRf4M1GEea1aEiJlEqXRq-XIoARBArQ1Boie3guvhcbIN2QcLG9JxpprRK6lu2NAztmgb8ISy9f8.tOXscXli5pBYDAfReJBhVRQxD-jKViGU_caX775uJNs&dib_tag=se&keywords=chemical%2Bguys%2Bbuffer&qid=1731110998&sprefix=chemical%2Bguys%2Bbuffer%2Caps%2C136&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
-  }, {
     name: "Tool Storage",
     description: "",
     price: "$298.00",
