@@ -17,6 +17,12 @@ const listOBJ = {
   ],
   tech: [
     {
+      name: "Amazon PLA Link",
+      description: "Your choice of colors, Refills preferred",
+      price: "$14.99",
+      url: "https://amzn.to/4iDdRJz",
+    },
+    {
       name: "Bambu PLA Link",
       description:
         "Your choice of colors, Refills preferred, Better discount with 4+ rolls",
@@ -24,22 +30,22 @@ const listOBJ = {
       url: "https://us.store.bambulab.com/collections/bambu-lab-3d-printer-filament?from=home_web_top_navigation&Printer+Type=For+A1+Series",
     },
     {
-      name: "Amazon PLA Link",
-      description: "Your choice of colors, Refills preferred",
-      price: "$14.99",
-      url: "https://amzn.to/4iDdRJz",
+      name: "Tripod",
+      description: "Magnetic",
+      price: "$26.99",
+      url: "https://amzn.to/443Fiq0",
+    },
+    {
+      name: "Arduino",
+      description: "",
+      price: "$59.99",
+      url: "https://amzn.to/48ysFED",
     },
     {
       name: "Raspberry Pi 5",
       description: "",
       price: "$89.59",
       url: "https://amzn.to/4q91Q1d",
-    },
-    {
-      name: "Tripod",
-      description: "Magnetic",
-      price: "$26.99",
-      url: "https://amzn.to/443Fiq0",
     },
   ],
   tools: [
